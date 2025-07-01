@@ -1,12 +1,52 @@
-# React + Vite
+# 🛒 E-commerce Fake
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto de e-commerce simples e funcional, desenvolvido com **React**, **Vite** e **React Router**, com as principais funcionalidades de um catálogo de produtos, incluindo:
 
-Currently, two official plugins are available:
+- Filtro por categoria
+- Barra de busca
+- Carrinho de compras
+- Imagens reais dos produtos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[![Preview do Projeto](./preview.png)](https://github.com/Coimbraitalo01/ecommerce-fake/blob/main/preview.png)
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Listagem de produtos com imagem, nome e preço
+- ✅ Filtro por categoria (dropdown)
+- ✅ Barra de busca com filtro em tempo real
+- ✅ Carrinho de compras com quantidade total
+- ✅ Navegação com React Router (`Home` e `Carrinho`)
+
+---
+
+## 🧪 Tecnologias usadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- JavaScript (ES6+)
+- CSS
+
+---
+
+## 💻 Como executar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/coimbraitalo01/ecommerce-fake.git
+
+# Acesse a pasta
+cd ecommerce-fake
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+
