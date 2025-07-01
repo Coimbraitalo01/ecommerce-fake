@@ -1,0 +1,40 @@
+// src/data/products.js
+const products = [
+  {
+    id: 1,
+    name: "Camisa Social",
+    image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 79.90,
+    category: "Roupas"
+  },
+  {
+    id: 2,
+    name: "Tênis Esportivo",
+    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 199.99,
+    category: "Calçados"
+  },
+  {
+    id: 3,
+    name: "Relógio",
+    image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 49.90,
+    category: "Acessórios"
+  },
+  {
+    id: 4,
+    name: "Mochila de Caminhada",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 120.00,
+    category: "Acessórios"
+  },
+  {
+    id: 5,
+    name: "Calça Jeans",
+    image: "https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    price: 99.90,
+    category: "Roupas"
+  }
+];
+
+export default products;
